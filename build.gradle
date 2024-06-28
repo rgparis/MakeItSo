@@ -17,8 +17,8 @@ ext {
     junitVersion = '5.10.0'
 }
 
-sourceCompatibility = '21'
-targetCompatibility = '21'
+//sourceCompatibility = '21'
+//targetCompatibility = '21'
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
@@ -45,6 +45,8 @@ test {
 }
 
 jlink {
+//    into layout.buildDirectory.dir('libs/dependencies')
+    //imageZip = project.file("${buildDirectory.dir(/distributions/app-${javafx.platform.classifier}.zip")
     imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
     options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
     launcher {
