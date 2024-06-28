@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="HelloApplicationJar" type="JarApplication" focusToolWindowBeforeRun="true">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/MakeItSo_jar/MakeItSo.jar" />
+    <option name="WORKING_DIRECTORY" value="C:\Users\rober\IdeaProjects\MakeItSo" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="BuildArtifacts" enabled="true">
+        <artifact name="MakeItSo:jar" />
+      </option>
+    </method>
+  </configuration>
+</component>
